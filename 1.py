@@ -52,3 +52,5 @@ total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_
 print(total_secs) # seconds in 4 years
 
 birth_per_min = 250
+birth_per_day = birth_per_min * mins_per_hour * hours_per_day
+print(birth_per_day)
